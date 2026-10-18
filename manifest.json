@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "generatedAt":  "2026-10-19T00:19:44.5319135+08:00",
+    "generatedAt":  "2026-10-19T01:09:46.9253616+08:00",
     "platform":  "win-x64",
     "minWindows":  "10.0.19044",
     "components":  [
@@ -11,21 +11,21 @@
                                         ],
                            "id":  "panel",
                            "license":  "Internal",
-                           "file":  "panel-1.0.0-win64.zip",
+                           "file":  "panel-1.0.1-win64.zip",
                            "name":  "管理面板",
                            "parent":  "Panel",
                            "kind":  "panel",
-                           "version":  "1.0.0",
-                           "size":  35766486,
+                           "version":  "1.0.1",
+                           "size":  35766482,
                            "requires":  [
 
                                         ],
                            "runtime":  "bundled",
                            "notes":  "Node SEA 自包含单 exe，无需安装 Node。",
-                           "tag":  "panel-1.0.0",
-                           "dir":  "Panel/1.0.0",
-                           "sha256":  "38071914f0d947398e520e2d01d805dd770218e702b06ced66254d2bf5975d26",
-                           "url":  "https://github.com/mokesss/dev-env-artifacts/releases/download/panel-1.0.0/panel-1.0.0-win64.zip"
+                           "tag":  "panel-1.0.1",
+                           "dir":  "Panel/1.0.1",
+                           "sha256":  "c9dfafb2831a81e0b49546998eab8180e02d8f9d320d62ca0af77615c84f332e",
+                           "url":  "https://github.com/mokesss/dev-env-artifacts/releases/download/panel-1.0.1/panel-1.0.1-win64.zip"
                        },
                        {
                            "expected":  [
