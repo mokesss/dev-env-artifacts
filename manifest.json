@@ -1,0 +1,170 @@
+{
+    "schemaVersion":  1,
+    "generatedAt":  "2026-10-19T00:19:44.5319135+08:00",
+    "platform":  "win-x64",
+    "minWindows":  "10.0.19044",
+    "components":  [
+                       {
+                           "expected":  [
+                                            "DevEnvPanel.exe",
+                                            "web/dist/index.html"
+                                        ],
+                           "id":  "panel",
+                           "license":  "Internal",
+                           "file":  "panel-1.0.0-win64.zip",
+                           "name":  "管理面板",
+                           "parent":  "Panel",
+                           "kind":  "panel",
+                           "version":  "1.0.0",
+                           "size":  35766486,
+                           "requires":  [
+
+                                        ],
+                           "runtime":  "bundled",
+                           "notes":  "Node SEA 自包含单 exe，无需安装 Node。",
+                           "tag":  "panel-1.0.0",
+                           "dir":  "Panel/1.0.0",
+                           "sha256":  "38071914f0d947398e520e2d01d805dd770218e702b06ced66254d2bf5975d26",
+                           "url":  "https://github.com/mokesss/dev-env-artifacts/releases/download/panel-1.0.0/panel-1.0.0-win64.zip"
+                       },
+                       {
+                           "expected":  [
+                                            "nginx-1.28.3/nginx.exe"
+                                        ],
+                           "id":  "nginx",
+                           "license":  "BSD-2-Clause",
+                           "file":  "nginx-1.28.3-win64.zip",
+                           "name":  "Nginx",
+                           "parent":  "Server/nginx",
+                           "kind":  "server",
+                           "version":  "1.28.3",
+                           "size":  2736581,
+                           "requires":  [
+
+                                        ],
+                           "runtime":  "bundled",
+                           "notes":  "官方 Windows 构建，无额外运行库依赖。",
+                           "tag":  "nginx-1.28.3",
+                           "dir":  "Server/nginx/nginx-1.28.3",
+                           "sha256":  "30d1f9331afce5c2392d0f6b0af2518f70a113835f2f707c03c3f62c24c49136",
+                           "url":  "https://github.com/mokesss/dev-env-artifacts/releases/download/nginx-1.28.3/nginx-1.28.3-win64.zip"
+                       },
+                       {
+                           "expected":  [
+                                            "mysql-8.4.11-winx64/bin/mysqld.exe"
+                                        ],
+                           "id":  "mysql",
+                           "license":  "GPL-2.0",
+                           "file":  "mysql-8.4.11-winx64.zip",
+                           "name":  "MySQL",
+                           "parent":  "Server/mysql",
+                           "kind":  "server",
+                           "version":  "8.4.11",
+                           "size":  281391020,
+                           "requires":  [
+
+                                        ],
+                           "runtime":  "bundled",
+                           "notes":  "bin 目录已带 MSVCP140/VCRUNTIME140/VCRUNTIME140_1，无需安装 VC++ Redistributable。",
+                           "tag":  "mysql-8.4.11",
+                           "dir":  "Server/mysql/mysql-8.4.11-winx64",
+                           "sha256":  "25fc7a155033ab13a81b65a4004db0ed4efb4c1da0b7eeb69a13618aaf9c9dfb",
+                           "url":  "https://github.com/mokesss/dev-env-artifacts/releases/download/mysql-8.4.11/mysql-8.4.11-winx64.zip"
+                       },
+                       {
+                           "expected":  [
+                                            "Redis-8.10.2-Windows-x64-msys2/redis-server.exe"
+                                        ],
+                           "id":  "redis",
+                           "license":  "See LICENSE",
+                           "file":  "redis-8.10.2-win64.zip",
+                           "name":  "Redis",
+                           "parent":  "Program/redis/redis-8.10.2",
+                           "kind":  "server",
+                           "version":  "8.10.2",
+                           "size":  13911971,
+                           "requires":  [
+
+                                        ],
+                           "runtime":  "bundled",
+                           "notes":  "msys2 运行库已随包，不依赖系统 msys2。",
+                           "tag":  "redis-8.10.2",
+                           "dir":  "Program/redis/redis-8.10.2/Redis-8.10.2-Windows-x64-msys2",
+                           "sha256":  "ad575912a105da3b046d8323fce192f0ee949a6e12ace7f265385005d0308375",
+                           "url":  "https://github.com/mokesss/dev-env-artifacts/releases/download/redis-8.10.2/redis-8.10.2-win64.zip"
+                       },
+                       {
+                           "expected":  [
+                                            "xxl-job-admin-3.5.0/xxl-job-admin.exe"
+                                        ],
+                           "id":  "xxl-job",
+                           "license":  "GPL-3.0",
+                           "file":  "xxl-job-3.5.0-win64.zip",
+                           "name":  "XXL-JOB",
+                           "parent":  "Server/xxl-job",
+                           "kind":  "server",
+                           "version":  "3.5.0",
+                           "size":  97510531,
+                           "requires":  [
+
+                                        ],
+                           "runtime":  "bundled",
+                           "notes":  "jpackage 自包含 exe，无需外部 Java。",
+                           "tag":  "xxl-job-3.5.0",
+                           "dir":  "Server/xxl-job/xxl-job-admin-3.5.0",
+                           "sha256":  "68dbf969033bc096ce8c6cedf6ca0caf195964b3df445744d37b4ad742e5e7e0",
+                           "url":  "https://github.com/mokesss/dev-env-artifacts/releases/download/xxl-job-3.5.0/xxl-job-3.5.0-win64.zip"
+                       },
+                       {
+                           "expected":  [
+                                            "nacos-server-3.2.4/nacos.exe"
+                                        ],
+                           "id":  "nacos",
+                           "license":  "Apache-2.0",
+                           "file":  "nacos-3.2.4-win64.zip",
+                           "name":  "Nacos",
+                           "parent":  "Server/nacos",
+                           "kind":  "server",
+                           "version":  "3.2.4",
+                           "size":  273526759,
+                           "requires":  [
+
+                                        ],
+                           "runtime":  "bundled",
+                           "notes":  "jpackage 自包含 exe（含 runtime），无需外部 Java。",
+                           "tag":  "nacos-3.2.4",
+                           "dir":  "Server/nacos/nacos-server-3.2.4",
+                           "sha256":  "8f8cb635ac8ee46e6e02506aa151e6b02c70a417ba73d420687062b44db8a93a",
+                           "url":  "https://github.com/mokesss/dev-env-artifacts/releases/download/nacos-3.2.4/nacos-3.2.4-win64.zip"
+                       },
+                       {
+                           "expected":  [
+                                            "rocketmq-namesrv-5.5.1/rocketmq-namesrv.exe",
+                                            "rocketmq-broker-5.5.1/rocketmq-broker.exe",
+                                            "rocketmq-mqadmin-5.5.1/rocketmq-mqadmin.exe"
+                                        ],
+                           "id":  "rocketmq",
+                           "license":  "Apache-2.0",
+                           "file":  "rocketmq-5.5.1-win64.zip",
+                           "paths":  {
+                                         "broker":  "rocketmq-broker-5.5.1",
+                                         "namesrv":  "rocketmq-namesrv-5.5.1",
+                                         "mqadmin":  "rocketmq-mqadmin-5.5.1"
+                                     },
+                           "name":  "RocketMQ",
+                           "parent":  "Server/rocketmq",
+                           "kind":  "server",
+                           "version":  "5.5.1",
+                           "size":  546477442,
+                           "requires":  [
+
+                                        ],
+                           "runtime":  "bundled",
+                           "notes":  "三个 jpackage 自包含目录，无需外部 Java。",
+                           "tag":  "rocketmq-5.5.1",
+                           "dir":  "Server/rocketmq",
+                           "sha256":  "25fc76c381b3bcd217fe328a9e3db625b29e785d8514a0ff6dce51c3d5cbfced",
+                           "url":  "https://github.com/mokesss/dev-env-artifacts/releases/download/rocketmq-5.5.1/rocketmq-5.5.1-win64.zip"
+                       }
+                   ]
+}
